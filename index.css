@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+#new-game {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px;
+    background: #9AABD8;
+}
+
+#new-game:hover {
+    color: #F94F6D;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+#h-points {
+    text-align: center;
+    background: black;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    margin: 25px;
+    padding: 15px 40px;
+}
+
+#g-points {
+    text-align: center;
+    background: black;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    margin: 25px;
+    padding: 15px 40px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+}
+
+.box:hover {
+    color: #F94F6D;
+}
